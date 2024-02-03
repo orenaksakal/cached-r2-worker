@@ -75,6 +75,7 @@ await fetch('https://cdn.yourdomain.com/image.png', {
 	method: 'DELETE',
 	headers: {
 		'Content-Type': 'application/json',
+		'X-Custom-Auth-Key': 'YOUR SECRET HERE',
 	},
 });
 ```
