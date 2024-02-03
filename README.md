@@ -1,4 +1,4 @@
-# Free Cloud blob storage with CDN and Cache using Cloudflare
+# Free cloud blob storage with CDN and Cache using Cloudflare
 
 This repo includes everything you need to setup a free image storage like `vercel blob` or `supabase storage` for free behind cloudflare cache and cdn using:
 
@@ -79,6 +79,7 @@ await fetch('https://cdn.yourdomain.com/image.png', {
 ```
 
 ## Config
+
 - You can change default cache time by changing the line 132 from `index.js`
 
 ```Javascript
@@ -88,6 +89,7 @@ headers.append('Cache-Control', 's-maxage=15552000'); //6 months cache
 - To allow any file type to be uploaded get rid of the `detectType` this way you can serve any type of file
 
 ## Questions & Feedback
+
 Reach out to me on twitter: [@orenaksakal](https://www.twitter.com/orenaksakal)
 
 Happy hacking!
