@@ -1,9 +1,9 @@
-name = "worker-name"
+name = "test-worker"
 main = "src/index.js"
 compatibility_date = "2024-01-29"
 workers_dev = true
 
 [[r2_buckets]]
 binding = 'BUCKET'
-bucket_name = 'bucket-name'
-preview_bucket_name = 'bucket-name'
+bucket_name = 'demo'
+preview_bucket_name = 'demo'
