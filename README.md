@@ -38,7 +38,7 @@ Methods allowed are
 - `GET`: for serving images with cache
 - `DELETE`: for deleting images
 
-###Examples
+### Examples
 
 #### Uploading image
 
